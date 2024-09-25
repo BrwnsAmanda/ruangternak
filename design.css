@@ -1,0 +1,276 @@
+body {
+  font-family: "Poppins";
+  color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+.navbar {
+  display: flex;
+  border-bottom: 1px solid #d9d9d9;
+  justify-content: space-between;
+  padding: 1.1rem 7%;
+  align-items: center;
+}
+
+.nama_app {
+  display: flex;
+}
+
+.merek {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 1rem;
+  margin-top: 10px;
+  color: black;
+}
+
+.header {
+  justify-content: center;
+  display: flex;
+}
+
+.header a {
+  color: black;
+  margin-left: 4rem;
+  margin-top: 10px;
+}
+
+#home {
+  font-weight: bold;
+}
+
+.header .part-header {
+  margin-top: 25px;
+}
+
+.header .pp img {
+  border-radius: 50%;
+}
+
+.section {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  justify-content: center;
+}
+
+.deskripsi {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 25%;
+  left: 20%;
+}
+
+.section .peternak {
+  width: 100%;
+  height: auto;
+}
+
+#par1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 6rem;
+}
+
+#par2 {
+  text-align: center;
+  margin-top: 3%;
+  margin-left: -130px;
+}
+
+.tawaran {
+  margin-left: 10%;
+  margin-top: 6%;
+  list-style: none;
+  margin-bottom: 6%;
+}
+
+.tawaran h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.tawaran .tawaran1 {
+  margin-top: 40px;
+  display: flex;
+}
+
+.tawaran1 p {
+  margin-left: 3%;
+}
+
+#taw1 {
+  margin-top: 10px;
+}
+
+.reason {
+  width: auto;
+  height: 800px;
+  background: linear-gradient(to bottom, #f4f0e5 50%, #1f4e3c 50%);
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reasontitle {
+  margin-top: 120px;
+  font-size: 20px;
+}
+
+.reasoncard {
+  display: flex;
+  margin-top: 230px;
+  justify-content: space-between;
+  gap: 80px;
+  position: absolute;
+}
+
+.card {
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  width: 300px;
+  height: 450px;
+  font-size: 16px;
+  text-align: center;
+  flex-direction: row;
+}
+
+.card p {
+  margin-top: 30px;
+}
+
+.card h4 {
+  margin-top: 20px;
+}
+
+.card img {
+  margin-top: 40px;
+}
+
+.daftar img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.daftar {
+  color: black;
+  position: relative;
+}
+
+.gabung {
+  position: absolute;
+  top: 40%;
+  left: 55%;
+  color: white;
+}
+
+.gabung .button {
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  display: inline-block;
+  background-color: #f4c76f;
+  padding: 15px 32px;
+  margin-bottom: 4%;
+  margin-top: 4%;
+}
+
+.aboutus {
+  background-color: #f4f0e5;
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.tentangkami {
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.aboutus p {
+  margin-top: 4%;
+}
+
+.footer-hijau {
+  background-color: #1f4e3c;
+  width: 100%;
+  height: auto;
+  display: flex;
+  text-decoration: none;
+  gap: 10%;
+  list-style: none;
+}
+
+.footer-hijau .footer-content {
+  color: white;
+  margin-top: 5%;
+  margin-left: 8%;
+  margin-bottom: 12%;
+}
+
+.footer-content h2 {
+  margin-left: 12%;
+}
+
+.footer-content p {
+  margin-left: 30px;
+}
+
+.footer-content .icon {
+  display: flex;
+  width: auto;
+  height: 20px;
+  margin-top: 30px;
+}
+
+.layanan-content {
+  color: white;
+  margin-top: 5%;
+  margin-left: 3%;
+}
+
+.layanan-content a {
+  display: flex;
+  color: white;
+  margin-top: 30px;
+}
+
+.kontak a img {
+  width: auto;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.kontak {
+  margin-top: 310px;
+  margin-left: -63%;
+}
+
+.footer-bottom {
+  color: white;
+  background-color: black;
+  padding: 30px;
+  text-align: center;
+  width: auto;
+  height: 100%;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
